@@ -1,0 +1,11 @@
+//to calculate parcentage of five subject number 
+#include<stdio.h>
+main()
+{
+int  sub1,sub2,sub3,sub4,sub5; 
+float parcentage;
+printf("enter your number in all five subjsect:");
+scanf("%d %d %d %d %d",&sub1,&sub2,&sub3,&sub4,&sub5);
+parcentage=(sub1+sub2+sub3+sub4+sub5)*100/500;
+printf("your parcentage is:%f",parcentage);
+}

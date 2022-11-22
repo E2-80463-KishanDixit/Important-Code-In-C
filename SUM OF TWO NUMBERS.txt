@@ -1,0 +1,13 @@
+//sumof two no
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int a,b,sum;
+printf("hello world\n");
+printf("ENTER TOW NUMBER");
+scanf("%d %d",&a,&b);
+sum=a+b;
+printf("SUM OF TWO NUMBER IS %d",sum);
+return 0;
+}

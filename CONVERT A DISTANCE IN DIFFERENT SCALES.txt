@@ -1,0 +1,14 @@
+//convert a km distance in meter feet and inches
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    float dis;
+    float meter,feet,inches;
+printf("enter distance in km:");
+scanf("%f",&dis);
+meter=dis*1000.0;
+feet=dis*1000.0*3.2808;
+ inches=dis*1000.0*3.2808*12;
+ printf("your distances in meter:%f\nfeet:%f:\ninches:%f",meter,feet,inches);
+}

@@ -1,0 +1,12 @@
+//WAP TO FIND GIVEN TWO NUM ARE EQUAL OR NOT
+#include<stdio.h>
+main()
+{
+int a,b;
+printf("enter two number");
+scanf("%d %d",&a,&b);
+a==b?printf("numbers are equal"):printf("numbers are not equal") ; 
+
+
+
+}  

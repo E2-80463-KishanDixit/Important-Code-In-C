@@ -1,0 +1,33 @@
+//13.WAP TO READ A SET OF HeIGHT AND FIND THE AVARAGE OF HEIGHT.AND FIND THE DEVIATION OF EACH HEIGHT.
+#include<stdio.h>
+#define MAX 50
+int main()
+{
+    int height[MAX];
+    int i,j,n;
+    float avg=0,d=0,sum=0,sum1;
+    printf("enter count of heights\n");
+    scanf("%d",&n);
+    printf("enter set of height\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&height[i]);
+    }
+
+    for(i=0;i<n;i++)
+    {
+        sum=sum+height[i];
+    }
+    printf("sum of heights %f\n",sum);
+    avg=sum/n;
+
+
+    printf("Average of heights %f\n",avg);
+    printf("\ndeviation of each heights are as follows:\n");
+    for(i=0;i<n;i++)
+    {
+        d=avg-height[i];
+        printf("%f\n",d);
+    }
+}
+
